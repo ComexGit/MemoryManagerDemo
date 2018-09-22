@@ -1,5 +1,5 @@
 //
-//  main.m
+//  Person.h
 //  MemoryManagerDemo
 //
 //  Created by UncleDrew on 2018/9/22.
@@ -7,14 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MRCFile.h"
-#import "Person.h"
 
+@interface Person : NSObject
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
+-(void)sayHello;
 
-        [MRCFile test];
-    }
-    return 0;
-}
+@end

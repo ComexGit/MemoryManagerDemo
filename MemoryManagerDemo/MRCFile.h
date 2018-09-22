@@ -1,5 +1,5 @@
 //
-//  main.m
+//  MRCFile.h
 //  MemoryManagerDemo
 //
 //  Created by UncleDrew on 2018/9/22.
@@ -7,14 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MRCFile.h"
-#import "Person.h"
 
+@interface MRCFile : NSObject
 
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
++ (void) test;
 
-        [MRCFile test];
-    }
-    return 0;
-}
+@end
