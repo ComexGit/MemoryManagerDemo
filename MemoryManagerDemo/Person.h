@@ -8,7 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+@class Book;
+
 @interface Person : NSObject
+{
+    Book* book;
+}
+
+- (void) setBook:(Book*)book;
+- (Book*)book;
 
 -(void)sayHello;
 

@@ -10,6 +10,7 @@
 		0C18AED52155E2AF009C1008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C18AED42155E2AF009C1008 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0C18AEDD2155E4D1009C1008 /* MRCFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C18AEDC2155E4D1009C1008 /* MRCFile.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0C18AEE02155E4ED009C1008 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C18AEDF2155E4ED009C1008 /* Person.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0C8E58232157238800ED56A5 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E58222157238800ED56A5 /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		0C18AEDC2155E4D1009C1008 /* MRCFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRCFile.m; sourceTree = "<group>"; };
 		0C18AEDE2155E4ED009C1008 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0C18AEDF2155E4ED009C1008 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0C8E58212157238800ED56A5 /* Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		0C8E58222157238800ED56A5 /* Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				0C18AEDC2155E4D1009C1008 /* MRCFile.m */,
 				0C18AEDE2155E4ED009C1008 /* Person.h */,
 				0C18AEDF2155E4ED009C1008 /* Person.m */,
+				0C8E58212157238800ED56A5 /* Book.h */,
+				0C8E58222157238800ED56A5 /* Book.m */,
 			);
 			path = MemoryManagerDemo;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C8E58232157238800ED56A5 /* Book.m in Sources */,
 				0C18AEE02155E4ED009C1008 /* Person.m in Sources */,
 				0C18AEDD2155E4D1009C1008 /* MRCFile.m in Sources */,
 				0C18AED52155E2AF009C1008 /* main.m in Sources */,
