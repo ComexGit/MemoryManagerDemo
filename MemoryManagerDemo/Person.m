@@ -10,6 +10,12 @@
 
 @implementation Person
 
++ (instancetype) person {
+    Person *person = [[Person alloc]init];
+    [person autorelease]; //取得已存在的对象，但自己不持有
+    return person;
+}
+
 - (void) setBook:(Book*)book {
     
     if (self.book != book) {

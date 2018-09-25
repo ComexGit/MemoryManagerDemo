@@ -15,6 +15,7 @@
     Book* book;
 }
 
++ (instancetype) person;
 - (void) setBook:(Book*)book;
 - (Book*)book;
 

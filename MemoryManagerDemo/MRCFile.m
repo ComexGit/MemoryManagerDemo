@@ -61,4 +61,23 @@
     [p release];    // 释放玩家 p
 }
 
++ (void) test3 {
+    
+    //自己生成的对象，自己持有
+    Person *a = [[Person alloc]init];
+    NSLog(@"retainCount = %lu", [a retainCount]);
+//    [a release];
+    [a autorelease]; //加入自动释放池
+    
+    //非自己生成的对象，不持有
+    Person *a1 = [Person person];
+    NSLog(@"retainCount = %lu", [a1 retainCount]);
+    
+    //非自己生成的对象，自己持有
+    Person *a2 = [Person person];
+//    [a2 release];  //不能释放非自己持有的对象，会崩溃
+    [a2 retain];
+    NSLog(@"retainCount = %lu", [a2 retainCount]);
+}
+
 @end

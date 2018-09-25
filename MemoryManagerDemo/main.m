@@ -14,7 +14,8 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
 
-        [MRCFile test];
+        [MRCFile test3];
     }
+
     return 0;
 }
