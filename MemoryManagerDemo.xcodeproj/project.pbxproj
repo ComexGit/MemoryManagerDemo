@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C18AED52155E2AF009C1008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C18AED42155E2AF009C1008 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0C18AED52155E2AF009C1008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C18AED42155E2AF009C1008 /* main.m */; };
 		0C18AEDD2155E4D1009C1008 /* MRCFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C18AEDC2155E4D1009C1008 /* MRCFile.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0C18AEE02155E4ED009C1008 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C18AEDF2155E4ED009C1008 /* Person.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0C8E58232157238800ED56A5 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E58222157238800ED56A5 /* Book.m */; };
